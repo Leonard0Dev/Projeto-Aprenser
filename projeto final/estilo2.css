@@ -1,0 +1,146 @@
+/* Reset CSS padrão */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  
+  /* Estilo do cabeçalho */
+  .header {
+    background-color: rgb(61, 60, 60);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header__div {
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+  }
+  
+  .lista-header {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    gap: 20px;
+    margin-right: 50px;
+  }
+  
+  .lista-header__informacao a {
+    outline: 2px solid yellow;
+    padding: 1em;
+    text-decoration: none;
+    color: yellow;
+    letter-spacing: 1.6px;
+  }
+  
+  .lista-header__informacao a:hover {
+    background: transparent;
+    outline: 2px solid black;
+    color: black;
+  }
+  
+  /* Seção principal 1 */
+  .parte_principal__ {
+    background-color: rgba(255, 238, 0, 0.349);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .parte_principal__div {
+    display: flex;
+    width: 1440px;
+    justify-content: space-between;
+  }
+  
+  .titulo_principal {
+    font-size: 3em;
+    width: 500px;
+    margin: 200px 0 0 100px;
+  }
+  
+  .titulo_principal__div {
+    margin: 50px 0 0 100px;
+  }
+  
+  .titulo_principal__link {
+    background-color: rgb(238, 255, 0);
+    padding: 20px 40px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  
+  .titulo_principal__link:hover {
+    background: transparent;
+    outline: 2px solid black;
+    color: black;
+  }
+  
+  /* Seção principal 2 */
+  .parte_principal_titulo__2 {
+    text-align: center;
+  }
+  
+  .parte_principal__2 {
+    padding: 0;
+    display: flex;
+    width: 100vw;
+    max-width: 1440px;
+    margin: auto;
+    justify-content: space-around;
+  }
+  
+  /* Seção principal 3 */
+  .parte_principal__3 {
+    width: 100vw;
+    background-color: rgb(0, 119, 255);
+    padding: 20px 20px 0 30px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1.5px;
+  }
+  
+  .parte_principal__3__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    width: 31.25em;
+    margin: 0px;
+  }
+  
+  .parte_principal__3__conteudo {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .parte_principal__3__conteudo h1 {
+    font-size: 2em;
+  }
+  
+  .parte_principal__3__conteudo p {
+    margin: 0;
+  }
+  
+  /* Seção principal 4 */
+  .parte_principal__4_titulo {
+    margin: 50px;
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: rgba(0, 0, 0, 0.404);
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+  }
+  
